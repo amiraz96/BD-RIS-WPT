@@ -30,3 +30,23 @@ This repository collects MATLAB scripts used to simulate and optimize reconfigur
 4. Execute the script from MATLAB. Output `.mat` files store optimized waveforms, impedance matrices, and harvested power statistics for each random channel realization.
 
 The channel-generation functions and optimization routines can also be reused independently to prototype new RIS architectures or evaluate alternative waveform optimization strategies.
+
+## Citing
+
+If you use this code, please cite the associated article. A BibTeX entry is provided below.
+
+```bibtex
+@misc{azarbahram2025beamformingwaveformoptimizationrf,
+      title={Beamforming and Waveform Optimization for RF Wireless Power Transfer with Beyond Diagonal Reconfigurable Intelligent Surfaces}, 
+      author={Amirhossein Azarbahram and Onel L. A. Lopez and Bruno Clerckx and Marco Di Renzo and Matti Latva-Aho},
+      year={2025},
+      eprint={2502.19176},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP},
+      url={https://arxiv.org/abs/2502.19176}, 
+}
+```
+
+## License
+
+The repository inherits the usage rights granted by the original authors. Refer to the paper or contact the authors for explicit licensing terms.
