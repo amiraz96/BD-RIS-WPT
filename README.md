@@ -1,6 +1,6 @@
 # Beyond-Diagonal RIS Wireless Power Transfer (BD-RIS-WPT)
 
-This repository collects MATLAB scripts used to simulate and optimize reconfigurable intelligent surface (RIS) architectures for wireless power transfer experiments associated with the preprint [arXiv:2502.19176](https://arxiv.org/abs/2502.19176). The code explores iterative and convex-optimization-based beamforming strategies for beyond-diagonal RIS (BD-RIS) structures across Rayleigh and Rician fading channels.
+This repository collects MATLAB scripts used to simulate and optimize reconfigurable intelligent surface (RIS) architectures for wireless power transfer experiments associated with the preprint "Beamforming and Waveform Optimization for RF Wireless Power Transfer with Beyond Diagonal Reconfigurable Intelligent Surfaces" [arXiv:2502.19176](https://arxiv.org/abs/2502.19176). The code explores iterative and convex-optimization-based beamforming strategies for beyond-diagonal RIS (BD-RIS) structures across Rayleigh and Rician fading channels.
 
 ## Requirements
 
