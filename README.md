@@ -6,7 +6,6 @@ This repository collects MATLAB scripts used to simulate and optimize reconfigur
 
 - **MATLAB** (tested with recent releases). The scripts rely on base MATLAB functionality and complex arithmetic.
 - **CVX** (with an SDP-capable backend such as MOSEK) for semidefinite programs solved inside the optimization scripts. Activate the solver by uncommenting the `cvx_solver mosek;` lines when MOSEK is available.
-- Optional helper utilities `vectorize_symmetric_matrix` and `vectorize_symmetric_matrix_w`, which are referenced when reshaping complex symmetric matrices. Implementations are not bundled in this repository; ensure compatible versions are present on the MATLAB path before running the Monte Carlo scripts.
 
 ## Repository structure
 
