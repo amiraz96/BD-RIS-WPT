@@ -18,8 +18,6 @@ This repository collects MATLAB scripts used to simulate and optimize reconfigur
 | `Rayleigh_channel.m`, `Rayleigh_channel_flat.m`, `Rayleigh_channel_time.m` | Channel generators producing frequency-flat or frequency-selective Rayleigh fading responses (the time-varying version derives taps from coherence bandwidth and delay-spread parameters). |
 | `Rician_channel.m` | Builds Rician fading matrices with user-defined K-factor and deterministic line-of-sight steering based on planar-array geometry. |
 | `aprox_fixed_w.m`, `aprox_fixed_w_new.m` | Evaluate fourth-order diode-based harvested power approximations and their gradients with respect to transmit weights, for complex and magnitude-only variants respectively. |
-| `W_OPT_Run.m` | CVX routine that re-optimizes the transmit waveform amplitudes for a fixed equivalent channel subject to a power budget. |
-| `Z_OPT_Run_Full.m` | Solves for incremental impedance updates of the RIS network via CVX while constraining element-wise perturbations. |
 | `takagi_phase_randomization_approximation.m` | Searches random phase rotations of a symmetric matrix’s Takagi factors to maximize harvested power metrics. |
 | `gaussian_randomization_cholesky.m` | Generates candidate rank-one factorizations from an SDP solution by applying Cholesky-based Gaussian randomization. |
 | `Rect_K.m` | Utility returning rectifier coefficients used in diode-based power models. |
